@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{E30CE4C1-6B5D-4533-A4A2-70817FF6D847}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="UnifiedCloudStorage/CloudStorageLogic.cs">
+    <Files>
+      <File FileName="UnifiedCloudStorage/AppDelegate.cs" Line="59" Column="10" />
+      <File FileName="UnifiedCloudStorage/SubfolderViewController.cs" Line="64" Column="70" />
+      <File FileName="UnifiedCloudStorage/CloudStorageLogic.cs" Line="240" Column="1" />
+      <File FileName="UnifiedCloudStorage/ListViewController.cs" Line="1" Column="1" />
+      <File FileName="UnifiedCloudStorage/CloudStorageViewController.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.UnifiedCloudStorage PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.0585DF64-FD9B-49E6-8DAF-125607FE58E6" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

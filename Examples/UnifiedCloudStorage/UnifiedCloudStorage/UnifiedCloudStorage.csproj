@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProjectGuid>{E30CE4C1-6B5D-4533-A4A2-70817FF6D847}</ProjectGuid>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>UnifiedCloudStorage</RootNamespace>
+    <AssemblyName>UnifiedCloudStorage</AssemblyName>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <DeviceSpecificBuild>true</DeviceSpecificBuild>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
+    <MtouchFastDev>true</MtouchFastDev>
+    <IOSDebuggerPort>31500</IOSDebuggerPort>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchArch>i386, x86_64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <PlatformTarget>x86</PlatformTarget>
+    <MtouchExtraArgs>--registrar:dynamic</MtouchExtraArgs>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchFloat32>true</MtouchFloat32>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <DeviceSpecificBuild>true</DeviceSpecificBuild>
+    <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>i386, x86_64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <DeviceSpecificBuild>true</DeviceSpecificBuild>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
+    <MtouchFastDev>true</MtouchFastDev>
+    <MtouchFloat32>true</MtouchFloat32>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <IOSDebuggerPort>48287</IOSDebuggerPort>
+    <MtouchLink>Full</MtouchLink>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+    <Reference Include="cloudrail-si-xamarin-ios-sdk">
+      <HintPath>..\..\..\cloudrail-si-xamarin-ios-sdk\bin\Release\cloudrail-si-xamarin-ios-sdk.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Box.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Dropbox.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Google Drive.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\One Drive.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\One Drive for Business.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Egnynte.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Box.imageset\Box.png" />
+    <ImageAsset Include="Assets.xcassets\Dropbox.imageset\Dropbox.png" />
+    <ImageAsset Include="Assets.xcassets\Egnynte.imageset\Egnyte.png" />
+    <ImageAsset Include="Assets.xcassets\Google Drive.imageset\GoogleDrive.png" />
+    <ImageAsset Include="Assets.xcassets\One Drive for Business.imageset\OneDriveBusiness.png" />
+    <ImageAsset Include="Assets.xcassets\One Drive.imageset\OneDrive.png" />
+    <ImageAsset Include="Assets.xcassets\Back.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Back.imageset\back%402x.png" />
+    <ImageAsset Include="Assets.xcassets\Back.imageset\back%403x.png" />
+    <ImageAsset Include="Assets.xcassets\BackArrow.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\BackArrow.imageset\backArrow%402x.png" />
+    <ImageAsset Include="Assets.xcassets\BackArrow.imageset\backArrow%403x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\cloud-computing copy.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\cloud-computing copy 2.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\cloud-computing copy 3.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\cloud-computing copy 4.png" />
+    <ImageAsset Include="Assets.xcassets\Picture.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Folder.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\DocFile.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Picture.imageset\picture.png" />
+    <ImageAsset Include="Assets.xcassets\Folder.imageset\folder.png" />
+    <ImageAsset Include="Assets.xcassets\DocFile.imageset\document.png" />
+    <ImageAsset Include="Assets.xcassets\Video.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Video.imageset\video-player-2.png" />
+    <ImageAsset Include="Assets.xcassets\Logo.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Logo.imageset\CloudRAIL_logo_neu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+    <Folder Include="Assets.xcassets\Box.imageset\" />
+    <Folder Include="Assets.xcassets\Dropbox.imageset\" />
+    <Folder Include="Assets.xcassets\Google Drive.imageset\" />
+    <Folder Include="Assets.xcassets\One Drive.imageset\" />
+    <Folder Include="Assets.xcassets\One Drive for Business.imageset\" />
+    <Folder Include="Assets.xcassets\Egnynte.imageset\" />
+    <Folder Include="Assets.xcassets\Back.imageset\" />
+    <Folder Include="Assets.xcassets\BackArrow.imageset\" />
+    <Folder Include="Assets.xcassets\Picture.imageset\" />
+    <Folder Include="Assets.xcassets\Folder.imageset\" />
+    <Folder Include="Assets.xcassets\DocFile.imageset\" />
+    <Folder Include="Assets.xcassets\Video.imageset\" />
+    <Folder Include="Assets.xcassets\Logo.imageset\" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="LaunchScreen.storyboard" />
+    <InterfaceDefinition Include="Main.storyboard" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Info.plist" />
+    <None Include="Entitlements.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="ListViewController.cs" />
+    <Compile Include="ListViewController.designer.cs">
+      <DependentUpon>ListViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListTableSource.cs" />
+    <Compile Include="CloudStorageViewController.cs" />
+    <Compile Include="CloudStorageViewController.designer.cs">
+      <DependentUpon>CloudStorageViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CloudStorageLogic.cs" />
+    <Compile Include="CloudStorageSource.cs" />
+    <Compile Include="Helper.cs" />
+    <Compile Include="SubfolderViewController.cs" />
+    <Compile Include="SubfolderViewController.designer.cs">
+      <DependentUpon>SubfolderViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubfolderSource.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="client_1007170750392-r3p483hu2q02nsp45679dbqsbt9po8h0.apps.googleusercontent.com.plist" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+</Project>

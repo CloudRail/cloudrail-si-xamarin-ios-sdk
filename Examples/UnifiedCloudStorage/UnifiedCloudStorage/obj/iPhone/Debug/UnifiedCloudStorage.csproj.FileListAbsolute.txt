@@ -1,0 +1,11 @@
+/Users/mujtabaalam/Documents/XamarinProjects/UnifiedCloudStorage/UnifiedCloudStorage/bin/iPhone/Debug/UnifiedCloudStorage.exe
+/Users/mujtabaalam/Documents/XamarinProjects/UnifiedCloudStorage/UnifiedCloudStorage/bin/iPhone/Debug/UnifiedCloudStorage.pdb
+/Users/mujtabaalam/Documents/XamarinProjects/UnifiedCloudStorage/UnifiedCloudStorage/bin/iPhone/Debug/CloudrailSI.dll
+/Users/mujtabaalam/Documents/XamarinProjects/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhone/Debug/device-builds/iphone8.1-10.0.1/ibtool/_BundleResourceWithLogicalName.items
+/Users/mujtabaalam/Documents/XamarinProjects/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhone/Debug/device-builds/iphone8.1-10.0.1/actool/_PartialAppManifest.items
+/Users/mujtabaalam/Documents/XamarinProjects/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhone/Debug/device-builds/iphone8.1-10.0.1/actool/_BundleResourceWithLogicalName.items
+/Users/mujtabaalam/Documents/XamarinProjects/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhone/Debug/device-builds/iphone8.1-10.0.1/optimized/client_1007170750392-r3p483hu2q02nsp45679dbqsbt9po8h0.apps.googleusercontent.com.plist
+/Users/mujtabaalam/Documents/XamarinProjects/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhone/Debug/device-builds/iphone8.1-10.0.1/optimized/
+/Users/mujtabaalam/Documents/XamarinProjects/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhone/Debug/UnifiedCloudStorage.csproj.CoreCompileInputs.cache
+/Users/mujtabaalam/Documents/XamarinProjects/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhone/Debug/UnifiedCloudStorage.exe
+/Users/mujtabaalam/Documents/XamarinProjects/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhone/Debug/UnifiedCloudStorage.pdb

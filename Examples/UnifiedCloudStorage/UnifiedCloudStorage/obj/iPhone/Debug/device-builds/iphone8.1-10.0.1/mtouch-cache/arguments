@@ -1,0 +1,39 @@
+# Version: 10.10.0.36 (d15-2: d2270eec)
+# [first argument, ignore] # --cache
+/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.36/lib/mtouch/mtouch.exe \
+	/Users/mujtabaalam/Documents/XamarinProjects/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhone/Debug/device-builds/iphone8.1-10.0.1/mtouch-cache \
+	--dev \
+	/Users/mujtabaalam/Documents/XamarinProjects/UnifiedCloudStorage/UnifiedCloudStorage/bin/iPhone/Debug/device-builds/iphone8.1-10.0.1/UnifiedCloudStorage.app \
+	--executable \
+	UnifiedCloudStorage \
+	--fastdev \
+	--debug \
+	--sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--sdk \
+	10.3 \
+	--targetver \
+	9.3 \
+	--aot-options=-O=float32 \
+	--http-message-handler=NSUrlSessionHandler \
+	--abi=arm64 \
+	--symbollist \
+	/Users/mujtabaalam/Documents/XamarinProjects/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhone/Debug/device-builds/iphone8.1-10.0.1/mtouch-symbols.list \
+	--dsym=no \
+	-r \
+	/Users/mujtabaalam/Documents/XamarinProjects/SDK/NewSDK/CloudrailSI/CloudrailSI/bin/Release/CloudrailSI.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
+	-r \
+	/Users/mujtabaalam/Documents/XamarinProjects/SDK/NewSDK/CloudrailSI/CloudrailSI/bin/Release/CloudrailSI.dll \
+	--target-framework \
+	"Xamarin.iOS,v1.0" \
+	/Users/mujtabaalam/Documents/XamarinProjects/UnifiedCloudStorage/UnifiedCloudStorage/bin/iPhone/Debug/UnifiedCloudStorage.exe \
