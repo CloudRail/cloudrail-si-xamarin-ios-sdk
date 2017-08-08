@@ -32,7 +32,7 @@ This means that, for example, Upload() works in exactly the same way for Dropbox
 ## Downloand and Basic setup
 Just add download and the DLL `cloudrail-si-xamarin-ios-sdk.dll` file to your project reference
 In the Project Navigator, open the source file of your application delegate. Add the import statement at the top of the file, then add the following call to CloudRail in the didFinishLaunching or didFinishLaunchingWithOptions method of your app delegate:
-```objective-c
+```csharp
 using CloudRailSI;
 
 CloudRail.AppKey = "{Your_License_Key}";
@@ -72,7 +72,7 @@ Point of Interest | Google Places, Foursquare, Yelp
 #### Code Sample
 
 [Full Documentation](https://cloudrail.com/integrations/interfaces/CloudStorage;platformId=XamarinIOS)
-```objective-c
+```csharp
 using CloudRailSI;
 
 CloudRail.AppKey = "{Your_License_Key}";
@@ -95,11 +95,11 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 {
 	try
 	{
-       NSInputStream object = service.DownloadFileWithPath:@"/mudkip.jpg"];
+            NSInputStream object = service.DownloadFileWithPath:@"/mudkip.jpg"];
 	}
 	catch (Exception e)
 	{
-		Console.WriteLine(e.Message);
+	    Console.WriteLine(e.Message);
 	}
 
 })).Start();
@@ -127,7 +127,7 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 #### Code Sample
 [Full Documentation](https://cloudrail.com/integrations/interfaces/BusinessCloudStorage;platformId=XamarinIOS)
 
-```objective-c
+```csharp
 using CloudRailSI;
 
 CloudRail.AppKey = "{Your_License_Key}";
@@ -152,11 +152,11 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 {
 	try
 	{
-       service.UploadFileToBucket(bucket,"file_name",inputStream,len);
+           service.UploadFileToBucket(bucket,"file_name",inputStream,len);
 	}
 	catch (Exception e)
 	{
-		Console.WriteLine(e.Message);
+	   Console.WriteLine(e.Message);
 	}
 
 })).Start();
@@ -185,7 +185,7 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 #### Code Sample 
 [Full Documentation](https://cloudrail.com/integrations/interfaces/Profile;platformId=XamarinIOS)
 
-```objective-c
+```csharp
 using CloudRailSI;
 
 CloudRail.AppKey = "{Your_License_Key}";
@@ -236,7 +236,7 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 #### Code Sample 
 [Full Documentation](https://cloudrail.com/integrations/interfaces/Social;platformId=XamarinIOS)
 
-```objective-c
+```csharp
 using CloudRailSI;
 
 CloudRail.AppKey = "{Your_License_Key}";
@@ -251,11 +251,11 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 {
 	try
 	{
-       service.PostUpdateWithContent("Using Cloudrail sdk!");
+           service.PostUpdateWithContent("Using Cloudrail sdk!");
 	}
 	catch (Exception e)
 	{
-		Console.WriteLine(e.Message);
+	   Console.WriteLine(e.Message);
 	}
 
 })).Start();
@@ -276,7 +276,7 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 #### Code Sample
 [Full Documentation](https://cloudrail.com/integrations/interfaces/Payment;platformId=XamarinIOS)
 
-```objective-c
+```csharp
 using CloudRailSI;
 
 CloudRail.AppKey = "{Your_License_Key}";
@@ -291,11 +291,11 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 {
 	try
 	{
-       CRSubscriptionPlan subPlan = service.CreateSubscriptionPlanWithName("Plan name",2000,"USD","description","day",7);
+           CRSubscriptionPlan subPlan = service.CreateSubscriptionPlanWithName("Plan name",2000,"USD","description","day",7);
 	}
 	catch (Exception e)
 	{
-		Console.WriteLine(e.Message);
+	   Console.WriteLine(e.Message);
 	}
 
 })).Start();
@@ -315,7 +315,7 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 #### Code Sample
 [Full Documentation](https://cloudrail.com/integrations/interfaces/Email;platformId=XamarinIOS)
 
-```objective-c
+```csharp
 using CloudRailSI;
 
 CloudRail.AppKey = "{Your_License_Key}";
@@ -329,16 +329,15 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 {
 	try
 	{
-  
-       NSMutableArray<NSString> toAddresses = new NSMutableArray<NSString>();
-       toAddresses.Add(new NSString("foo@gmail.com"));
-       toAddresses.Add(new NSString("bar@gmail.com"));
+       	   NSMutableArray<NSString> toAddresses = new NSMutableArray<NSString>();
+           toAddresses.Add(new NSString("foo@gmail.com"));
+           toAddresses.Add(new NSString("bar@gmail.com"));
 
-       service.SendEmail("cloudrail@cloudrail.com", @"Bob", toAddresses, "Mailjet and SendGrid", "The Mailjet and Sendgrid is on cloudrail now!!!","", null, null);
+       	   service.SendEmail("cloudrail@cloudrail.com", @"Bob", toAddresses, "Mailjet and SendGrid", "The Mailjet and Sendgrid is on cloudrail now!!!","", null, null);
 	}
 	catch (Exception e)
 	{
-		Console.WriteLine(e.Message);
+	   Console.WriteLine(e.Message);
 	}
 
 })).Start();
@@ -360,7 +359,7 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 #### Code Sample
 [Full Documentation](https://cloudrail.com/integrations/interfaces/SMS;platformId=XamarinIOS)
 
-```objective-c
+```csharp
 using CloudRailSI;
 
 CloudRail.AppKey = "{Your_License_Key}";
@@ -399,7 +398,7 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 #### Code Example
 [Full Documentation](https://cloudrail.com/integrations/interfaces/PointsOfInterest;platformId=XamarinIOS)
 
-```objective-c
+```csharp
 using CloudRailSI;
 
 CloudRail.AppKey = "{Your_License_Key}";
@@ -415,12 +414,12 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 {
 	try
 	{
-       NSMutableArray arrayPOI = service.NearbyPoisWithLatitude(9.483927, 8.473272, 300, "", null);
+      	   NSMutableArray arrayPOI = service.NearbyPoisWithLatitude(9.483927, 8.473272, 300, "", null);
 	   CRPOI[] pois = NSArray.FromArray<CRPOI>(arrayPOI);
 	}
 	catch (Exception e)
 	{
-		Console.WriteLine(e.Message);
+	   Console.WriteLine(e.Message);
 	}
 
 })).Start();
