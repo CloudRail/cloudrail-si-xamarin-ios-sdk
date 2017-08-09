@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnifiedSocialProfile", "UnifiedSocialProfile\UnifiedSocialProfile.csproj", "{B8158707-AF91-488D-A2BE-35571D05E703}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8158707-AF91-488D-A2BE-35571D05E703}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{B8158707-AF91-488D-A2BE-35571D05E703}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{B8158707-AF91-488D-A2BE-35571D05E703}.Release|iPhone.ActiveCfg = Release|iPhone
+		{B8158707-AF91-488D-A2BE-35571D05E703}.Release|iPhone.Build.0 = Release|iPhone
+		{B8158707-AF91-488D-A2BE-35571D05E703}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{B8158707-AF91-488D-A2BE-35571D05E703}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{B8158707-AF91-488D-A2BE-35571D05E703}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{B8158707-AF91-488D-A2BE-35571D05E703}.Debug|iPhone.Build.0 = Debug|iPhone
+	EndGlobalSection
+EndGlobal
