@@ -1,9 +1,9 @@
+[Click for Xamarin.Android Version](https://github.com/CloudRail/cloudrail-si-xamarin-android-sdk)
 <p align="center">
 <img width="200px" src="http://cloudrail.github.io/img/cloudrail_logo_github.png"/>
 </p>
 
 # CloudRail SI for Xamarin iOS
-
 Integrate Multiple Services With Just One API
 
 <p align="center">
@@ -37,6 +37,8 @@ using CloudRailSI;
 
 CloudRail.AppKey = "{Your_License_Key}";
 ```
+[Get a free license key here](https://cloudrail.com/signup)
+
 ---
 
 ## Current Interfaces:
