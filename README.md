@@ -52,6 +52,7 @@ Payment | PayPal, Stripe
 Email | Maljet, Sendgrid
 SMS | Twilio, Nexmo
 Point of Interest | Google Places, Foursquare, Yelp
+Video | Youtube, Twitch, Vimeo
 
 ---
 ### Cloud Storage Interface:
@@ -309,6 +310,7 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 
 * Mailjet
 * Sendgrid
+* Gmail
 
 #### Features
 
@@ -325,6 +327,8 @@ CloudRail.AppKey = "{Your_License_Key}";
 ICREmailProtocol service;
 
 // service = new CRMailJet("[clientIdentifier]", "[clientSecret]");
+// service = new CRGMail("[GMail Client Identifier]","","com.cloudrail.example:/auth","someState");
+
 service = new CRSendGrid("API Key");
 
 new System.Threading.Thread(new System.Threading.ThreadStart(() =>
@@ -334,8 +338,13 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
        	   NSMutableArray<NSString> toAddresses = new NSMutableArray<NSString>();
            toAddresses.Add(new NSString("foo@gmail.com"));
            toAddresses.Add(new NSString("bar@gmail.com"));
+	   
+	   CRAttachment attachImage = new CRAttachment(content,"image/jpg","MyFile.jpg"); //InputStream, MimeType,FileName
+	   
+	   NSMutableArray<CRAttachment> attachments = new NSMutableArray<CRAttachment>();
+	   attachments.Add(attachImage);
 
-       	   service.SendEmail("cloudrail@cloudrail.com", @"Bob", toAddresses, "Mailjet and SendGrid", "The Mailjet and Sendgrid is on cloudrail now!!!","", null, null);
+       	   service.SendEmail("cloudrail@cloudrail.com", @"Bob", toAddresses, "Mailjet and SendGrid", "The Mailjet and Sendgrid is on cloudrail now!!!","", null, null, attachments);
 	}
 	catch (Exception e)
 	{
@@ -418,6 +427,57 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 	{
       	   NSMutableArray arrayPOI = service.NearbyPoisWithLatitude(9.483927, 8.473272, 300, "", null);
 	   CRPOI[] pois = NSArray.FromArray<CRPOI>(arrayPOI);
+	}
+	catch (Exception e)
+	{
+	   Console.WriteLine(e.Message);
+	}
+
+})).Start();
+
+```
+---
+
+### Video Interface:
+
+* Youtube
+* Twitch
+* Vimeo
+
+#### Features
+
+* Search for videos
+* Upload videos
+* Get a list of videos for a channel
+* Get channel details
+* Get your own channel details
+* Get video details 
+
+#### Code Example
+[Full Documentation](https://cloudrail.com/integrations/interfaces/Video;platformId=XamarinIOS)
+
+```csharp
+using CloudRailSI;
+
+CloudRail.AppKey = "{Your_License_Key}";
+
+ICRVideoProtocol service;
+
+// service = new CRTwitch("[Twitch Client Identifier]", "[Twitch Client Secret]");
+// service = new CRVimeo("[Vimeo Client Identifier]", "[Vimeo Client Secret]");
+
+service = new CRYouTube("[YouTube Client Identifier]", "", "com.cloudrail.example:/auth", "someState");
+service.UseAdvancedAuthentication();
+
+new System.Threading.Thread(new System.Threading.ThreadStart(() =>
+{
+	try
+	{
+      	   CRVideoMetaData[] result = NSArray.FromArray<CRVideoMetaData>(service.SearchVideosWithQuery("Game of Thrones",0,20));  //Query, Offset, Limit
+	   
+	   //CRVideoMetaData result = service.UploadVideoWithTitle("HowTo: Setup CloudRail","Video about Setting up CloudRail", NSInputStream, 1448576, "UCnrFDdA2KAItbRzm2a3I_OA", "video/mp4"); // Title, Description, Stream (data), Size, ChannelID (optional for Youtube) and Video Mime type
+	  
+	   
 	}
 	catch (Exception e)
 	{
