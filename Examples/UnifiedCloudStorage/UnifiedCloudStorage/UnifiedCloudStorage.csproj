@@ -85,7 +85,7 @@
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
     <Reference Include="cloudrail-si-xamarin-ios-sdk">
-      <HintPath>..\..\..\cloudrail-si-xamarin-ios-sdk\bin\Release\cloudrail-si-xamarin-ios-sdk.dll</HintPath>
+      <HintPath>..\..\..\cloudrail-si-xamarin-ios-sdk.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
