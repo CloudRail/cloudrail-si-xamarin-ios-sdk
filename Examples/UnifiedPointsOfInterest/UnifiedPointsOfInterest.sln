@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnifiedPointsOfInterest", "UnifiedPointsOfInterest\UnifiedPointsOfInterest.csproj", "{83351AA2-1C1D-487C-8820-C1E47A5D7E05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83351AA2-1C1D-487C-8820-C1E47A5D7E05}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{83351AA2-1C1D-487C-8820-C1E47A5D7E05}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{83351AA2-1C1D-487C-8820-C1E47A5D7E05}.Release|iPhone.ActiveCfg = Release|iPhone
+		{83351AA2-1C1D-487C-8820-C1E47A5D7E05}.Release|iPhone.Build.0 = Release|iPhone
+		{83351AA2-1C1D-487C-8820-C1E47A5D7E05}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{83351AA2-1C1D-487C-8820-C1E47A5D7E05}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{83351AA2-1C1D-487C-8820-C1E47A5D7E05}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{83351AA2-1C1D-487C-8820-C1E47A5D7E05}.Debug|iPhone.Build.0 = Debug|iPhone
+	EndGlobalSection
+EndGlobal
