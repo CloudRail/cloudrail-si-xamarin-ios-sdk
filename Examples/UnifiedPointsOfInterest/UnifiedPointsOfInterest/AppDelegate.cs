@@ -21,7 +21,7 @@ namespace UnifiedPointsOfInterest
         {
             // Override point for customization after application launch.
             // If not required for your application you can safely delete this method
-            CRCloudRail.AppKey = "5947b1545f3a46262b370388";
+            CRCloudRail.AppKey = "[Your CloudRail Key]";
             return true;
         }
 

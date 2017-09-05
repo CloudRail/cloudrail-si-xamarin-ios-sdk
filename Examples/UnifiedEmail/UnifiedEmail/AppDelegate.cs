@@ -23,7 +23,7 @@ namespace UnifiedEmail
         {
             // Override point for customization after application launch.
             // If not required for your application you can safely delete this method
-            CRCloudRail.AppKey = "5982e10416829560d895fb95";
+            CRCloudRail.AppKey = "[Your CloudRail Key]";
             return true;
         }
 
