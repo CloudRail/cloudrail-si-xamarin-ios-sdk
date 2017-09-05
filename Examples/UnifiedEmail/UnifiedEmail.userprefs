@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{57652F3E-BF66-4EAB-909B-78954431179A}|Default">
+  <MonoDevelop.Ide.ItemProperties.UnifiedEmail PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7F2D56DE-48B1-4943-A8CA-A2F5A3AAD138" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="UnifiedEmail/ViewController.cs">
+    <Files>
+      <File FileName="UnifiedEmail/Main.storyboard" />
+      <File FileName="UnifiedEmail/Main.cs" Line="12" Column="1" />
+      <File FileName="UnifiedEmail/ViewController.cs" Line="38" Column="13" />
+      <File FileName="UnifiedEmail/Info.plist" />
+      <File FileName="UnifiedEmail/AppDelegate.cs" Line="48" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnifiedEmail", "UnifiedEmail\UnifiedEmail.csproj", "{57652F3E-BF66-4EAB-909B-78954431179A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57652F3E-BF66-4EAB-909B-78954431179A}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{57652F3E-BF66-4EAB-909B-78954431179A}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{57652F3E-BF66-4EAB-909B-78954431179A}.Release|iPhone.ActiveCfg = Release|iPhone
+		{57652F3E-BF66-4EAB-909B-78954431179A}.Release|iPhone.Build.0 = Release|iPhone
+		{57652F3E-BF66-4EAB-909B-78954431179A}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{57652F3E-BF66-4EAB-909B-78954431179A}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{57652F3E-BF66-4EAB-909B-78954431179A}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{57652F3E-BF66-4EAB-909B-78954431179A}.Debug|iPhone.Build.0 = Debug|iPhone
+	EndGlobalSection
+EndGlobal
