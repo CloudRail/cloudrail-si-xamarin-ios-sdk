@@ -15,5 +15,5 @@
 * Fixed timestamp issue
 * Fixed missing constructor for OneDrive / Gmail
 
-## [1.0.0](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/tree/1.0.0) (2016-08-07)
+## [1.0.0](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/tree/1.0.0) (2017-08-07)
 - Initial release
