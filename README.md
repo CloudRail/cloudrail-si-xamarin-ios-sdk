@@ -29,8 +29,11 @@ With CloudRail, you can easily integrate external APIs into your application.
 CloudRail provides abstracted interfaces that take several services and then exposes a developer-friendly API that uses common functions between all providers. 
 This means that, for example, Upload() works in exactly the same way for Dropbox as it does for Google Drive, OneDrive, and other Cloud Storage Services, and GetEmail() works similarly the same way across all social networks.
 
-## Downloand and Basic setup
-Just add download and the DLL `cloudrail-si-xamarin-ios-sdk.dll` file to your project reference
+## Download Nuget Package or DLL and Basic setup
+You can download CloudRail SDK Nuget Package from:
+https://www.nuget.org/packages/Xamarin.CloudRail.iOS
+
+Or just add download and the DLL `cloudrail-si-xamarin-ios-sdk.dll` file to your project reference.
 In the Project Navigator, open the source file of your application delegate. Add the import statement at the top of the file, then add the following call to CloudRail in the didFinishLaunching or didFinishLaunchingWithOptions method of your app delegate:
 ```csharp
 using CloudRailSI;
@@ -49,7 +52,7 @@ Business Cloud Storage | Amazon S3, Microsoft Azure, Rackspace, Backblaze
 Social Profiles | Facebook, GitHub, Google+, LinkedIn, Slack, Twitter, Windows Live, Yahoo, Instagram, Heroku
 Social Interaction | Facebook, Twitter
 Payment | PayPal, Stripe
-Email | Maljet, Sendgrid
+Email | Maljet, Sendgrid, Gmail
 SMS | Twilio, Nexmo
 Point of Interest | Google Places, Foursquare, Yelp
 Video | Youtube, Twitch, Vimeo
