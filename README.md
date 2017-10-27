@@ -56,6 +56,7 @@ Email | Maljet, Sendgrid, Gmail
 SMS | Twilio, Nexmo
 Point of Interest | Google Places, Foursquare, Yelp
 Video | Youtube, Twitch, Vimeo
+Messaging | Facebook Messenger, Telegram, Line, Viber
 
 ---
 ### Cloud Storage Interface:
@@ -481,6 +482,53 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 	   //CRVideoMetaData result = service.UploadVideoWithTitle("HowTo: Setup CloudRail","Video about Setting up CloudRail", NSInputStream, 1448576, "UCnrFDdA2KAItbRzm2a3I_OA", "video/mp4"); // Title, Description, Stream (data), Size, ChannelID (optional for Youtube) and Video Mime type
 	  
 	   
+	}
+	catch (Exception e)
+	{
+	   Console.WriteLine(e.Message);
+	}
+
+})).Start();
+
+```
+---
+
+### Messaging Interface:
+
+* FacebookMessenger
+* Telegram
+* Line
+* Viber
+
+#### Features
+
+* Send text messages
+* Send files, images, videos and audios
+* Parse a message received on your webhook
+* Download the content of an attachment sent to your webhook
+
+#### Code Example - Objective-C
+[Full Documentation](https://cloudrail.com/integrations/interfaces/Messaging;platformId=XamarinIOS)
+
+```csharp
+using CloudRailSI;
+
+CloudRail.AppKey = "{Your_License_Key}";
+
+ICRMessagingProtocol service;
+
+// service = new CRViber("[Bot Token]", "[Webhook URL]", "[Bot Name]");
+// service = new CRTelegram("[Bot Token]", "[Webhook URL]");
+// service = new CRLine("[Bot Token]");
+
+service = = new CRFacebookMessenger("[Bot Token]");
+
+new System.Threading.Thread(new System.Threading.ThreadStart(() =>
+{
+	try
+	{
+	    CRMessage result = service.SendMessageWithReceiverId("12123242","It's so easy to send message via CloudRail");
+	    Console.WriteLine(result);
 	}
 	catch (Exception e)
 	{
