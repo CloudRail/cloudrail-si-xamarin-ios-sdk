@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.2.4](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/tree/1.2.4) (2017-11-07)
+[Full Changelog](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/compare/1.2.3...1.2.4)
+
+* Added Advance Request to Messaging Services
+* Added Send Caurosel Method to Messaging Interface
+* Fixed the Done button on the WebView (Changed to WKWebView)
+
 ## [1.2.3](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/tree/1.2.3) (2017-10-17)
 [Full Changelog](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/compare/1.2.1...1.2.3)
 
