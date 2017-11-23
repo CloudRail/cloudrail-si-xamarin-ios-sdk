@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.2.5](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/tree/1.2.4) (2017-11-23)
+[Full Changelog](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/compare/1.2.4...1.2.5)
+
+* Added missing files (messaging files)
+* Fixed CloudStorage issues to limit files
+* Added Category to POI
+
 ## [1.2.4](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/tree/1.2.4) (2017-11-07)
 [Full Changelog](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/compare/1.2.3...1.2.4)
 
