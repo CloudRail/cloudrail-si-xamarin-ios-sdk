@@ -1,6 +1,0 @@
-framework module CloudrailSI {
-  umbrella header "CloudrailSI.h"
-
-  export *
-  module * { export * }
-}
