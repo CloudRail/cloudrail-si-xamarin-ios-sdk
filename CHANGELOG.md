@@ -1,6 +1,12 @@
 # Change Log
 
-## [1.2.5](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/tree/1.2.4) (2017-11-23)
+## [1.2.6](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/tree/1.2.6) (2017-11-27)
+[Full Changelog](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/compare/1.2.5...1.2.6)
+
+* Hot fix - Connection
+* Amazon S3 fix
+
+## [1.2.5](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/tree/1.2.5) (2017-11-23)
 [Full Changelog](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/compare/1.2.4...1.2.5)
 
 * Added missing files (messaging files)
