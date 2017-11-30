@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.2.7](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/tree/1.2.7) (2017-11-30)
+[Full Changelog](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/compare/1.2.6...1.2.7)
+
+* Cancel button fix webview
+
 ## [1.2.6](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/tree/1.2.6) (2017-11-27)
 [Full Changelog](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/compare/1.2.5...1.2.6)
 
