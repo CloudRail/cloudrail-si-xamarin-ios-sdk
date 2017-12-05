@@ -38,7 +38,7 @@ In the Project Navigator, open the source file of your application delegate. Add
 ```csharp
 using CloudRailSI;
 
-CloudRail.AppKey = "{Your_License_Key}";
+CRCloudRail.AppKey = "{Your_License_Key}";
 ```
 [Get a free license key here](https://cloudrail.com/signup)
 
