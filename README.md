@@ -82,21 +82,25 @@ Messaging | Facebook Messenger, Telegram, Line, Viber
 ```csharp
 using CloudRailSI;
 
-CloudRail.AppKey = "{Your_License_Key}";
+CRCloudRail.AppKey = "{Your_License_Key}";
 
 
 ICRCloudStorageProtocol> service;
 
-// Google Drive
+// Setup Google Drive Authenticating: https://blog.cloudrail.com/authenticating-google-drive/
 // CRGoogleDrive drive = new CRGoogleDrive("[clientIdentifier]", "", "[redirectUri]", "[state]");
 // drive.UseAdvancedAuthentication();
-// service = drive
+// service = drive;
+
 
 // service = new CRBox("[clientIdentifier]", "[clientSecret]");
 // service = new CROneDrive("[clientIdentifier]", "[clientSecret]");
 
-service = new CRDropbox("[clientIdentifier]", "[clientSecret]");
 
+//Setup Dropbox Authenticating: https://blog.cloudrail.com/authenticating-with-dropbox/
+CRDropbox dropbox = new CRDropbox("[clientIdentifier]", "[clientSecret]", "https://auth.cloudrail.com/YourBundleID", "someState");
+dropbox.UseAdvancedAuthentication();
+service = dropbox;
 
 new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 {
@@ -137,7 +141,7 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 ```csharp
 using CloudRailSI;
 
-CloudRail.AppKey = "{Your_License_Key}";
+CRCloudRail.AppKey = "{Your_License_Key}";
 
 ICRBusinessCloudStorageProtocol service;
 
@@ -195,7 +199,7 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 ```csharp
 using CloudRailSI;
 
-CloudRail.AppKey = "{Your_License_Key}";
+CRCloudRail.AppKey = "{Your_License_Key}";
 
 ICRProfileProtocol service;
 
@@ -246,7 +250,7 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 ```csharp
 using CloudRailSI;
 
-CloudRail.AppKey = "{Your_License_Key}";
+CRCloudRail.AppKey = "{Your_License_Key}";
 
 ICRSocialProtocol service;
 
@@ -286,7 +290,7 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 ```csharp
 using CloudRailSI;
 
-CloudRail.AppKey = "{Your_License_Key}";
+CRCloudRail.AppKey = "{Your_License_Key}";
 
 ICRPaymentProtocol service;
 
@@ -326,7 +330,7 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 ```csharp
 using CloudRailSI;
 
-CloudRail.AppKey = "{Your_License_Key}";
+CRCloudRail.AppKey = "{Your_License_Key}";
 
 ICREmailProtocol service;
 
@@ -377,7 +381,7 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 ```csharp
 using CloudRailSI;
 
-CloudRail.AppKey = "{Your_License_Key}";
+CRCloudRail.AppKey = "{Your_License_Key}";
 
 ICRSMSProtocol service;
 
@@ -416,7 +420,7 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 ```csharp
 using CloudRailSI;
 
-CloudRail.AppKey = "{Your_License_Key}";
+CRCloudRail.AppKey = "{Your_License_Key}";
 
 ICRPointsOfInterestProtocol service;
 
@@ -463,7 +467,7 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 ```csharp
 using CloudRailSI;
 
-CloudRail.AppKey = "{Your_License_Key}";
+CRCloudRail.AppKey = "{Your_License_Key}";
 
 ICRVideoProtocol service;
 
@@ -513,7 +517,7 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 ```csharp
 using CloudRailSI;
 
-CloudRail.AppKey = "{Your_License_Key}";
+CRCloudRail.AppKey = "{Your_License_Key}";
 
 ICRMessagingProtocol service;
 
