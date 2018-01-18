@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.2.8](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/tree/1.2.8) (2018-01-18)
+[Full Changelog](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/compare/1.2.7...1.2.8)
+
+* Fixed Issue where Google services throw exception before authentication
+
 ## [1.2.7](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/tree/1.2.7) (2017-12-14)
 [Full Changelog](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/compare/1.2.6...1.2.7)
 
