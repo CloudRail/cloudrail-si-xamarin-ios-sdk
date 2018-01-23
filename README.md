@@ -47,7 +47,7 @@ CRCloudRail.AppKey = "{Your_License_Key}";
 ## Current Interfaces:
 Interface | Included Services
 --- | ---
-Cloud Storage | Dropbox, Google Drive, OneDrive, Box, Egnyte, OneDrive Business
+Cloud Storage | Dropbox, Google Drive, OneDrive, Box, PCloud, Egnyte, OneDrive Business
 Business Cloud Storage | Amazon S3, Microsoft Azure, Rackspace, Backblaze
 Social Profiles | Facebook, GitHub, Google+, LinkedIn, Slack, Twitter, Windows Live, Yahoo, Instagram, Heroku
 Social Interaction | Facebook, Twitter
@@ -65,6 +65,7 @@ Messaging | Facebook Messenger, Telegram, Line, Viber
 * Box
 * Google Drive
 * Microsoft OneDrive
+* PCloud
 * Egnyte
 * OneDrive Business
 
@@ -95,6 +96,7 @@ ICRCloudStorageProtocol> service;
 
 // service = new CRBox("[clientIdentifier]", "[clientSecret]");
 // service = new CROneDrive("[clientIdentifier]", "[clientSecret]");
+// service = new CRPCloud("[clientIdentifier]", "[clientSecret]");
 
 
 //Setup Dropbox Authenticating: https://blog.cloudrail.com/authenticating-with-dropbox/

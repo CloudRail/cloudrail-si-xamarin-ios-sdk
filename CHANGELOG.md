@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.2.9](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/tree/1.2.9) (2018-01-23)
+[Full Changelog](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/compare/1.2.8...1.2.9)
+
+* PCloud added as a new integration in the Cloud Storage interface
+* Fixed Google Drive path issue (when it contains backslashes)
+
 ## [1.2.8](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/tree/1.2.8) (2018-01-18)
 [Full Changelog](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/compare/1.2.7...1.2.8)
 
