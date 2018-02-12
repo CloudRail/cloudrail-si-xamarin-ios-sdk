@@ -47,7 +47,7 @@ CRCloudRail.AppKey = "{Your_License_Key}";
 ## Current Interfaces:
 Interface | Included Services
 --- | ---
-Cloud Storage | Dropbox, Google Drive, OneDrive, Box, PCloud, Egnyte, OneDrive Business
+Cloud Storage | Dropbox, Google Drive, OneDrive, Box, pCloud, Egnyte, OneDrive Business
 Business Cloud Storage | Amazon S3, Microsoft Azure, Rackspace, Backblaze
 Social Profiles | Facebook, GitHub, Google+, LinkedIn, Slack, Twitter, Windows Live, Yahoo, Instagram, Heroku
 Social Interaction | Facebook, Twitter
@@ -65,7 +65,7 @@ Messaging | Facebook Messenger, Telegram, Line, Viber
 * Box
 * Google Drive
 * Microsoft OneDrive
-* PCloud
+* pCloud
 * Egnyte
 * OneDrive Business
 
@@ -73,6 +73,7 @@ Messaging | Facebook Messenger, Telegram, Line, Viber
 
 * Download files from Cloud Storage.
 * Upload files to Cloud Storage.
+* Upload files with modified date to Cloud Storage.
 * Get Meta Data of files, folders and perform all standard operations (copy, move, etc) with them.
 * Retrieve user and quota information.
 * Generate share links for files and folders.
