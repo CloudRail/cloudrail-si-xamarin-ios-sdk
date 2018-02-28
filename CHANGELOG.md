@@ -1,5 +1,14 @@
 # Change Log
 
+## [1.2.11](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/tree/1.2.11) (2018-02-28)
+[Full Changelog](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/compare/1.2.10...1.2.11)
+
+* Minor changes to OneDrive, OneDriveBusiness, GoogleDrive
+* Fixed Unknown Issue caused by wrong allocation
+* Fixed apostrophe issue in GoogleDrive
+* Fixed Crash on OneDrive
+* Updated CRDate formats
+
 ## [1.2.10](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/tree/1.2.10) (2018-02-12)
 [Full Changelog](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/compare/1.2.9...1.2.10)
 
