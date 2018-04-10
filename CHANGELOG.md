@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.2.13](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/tree/1.2.13) (2018-04-10)
+[Full Changelog](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/compare/1.2.12...1.2.13)
+
+* Fixed bug in Exists: method in GoogleDrive.
+* Added AdvancedRequest feature in Yelp.
+* Added new method ListFilesInBucketWithPrefix to BusinessCloudStorage interface.
+
 ## [1.2.12](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/tree/1.2.12) (2018-03-28)
 [Full Changelog](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/compare/1.2.11...1.2.12)
 
