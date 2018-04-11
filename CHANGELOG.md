@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.2.14](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/tree/1.2.14) (2018-04-11)
+[Full Changelog](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/compare/1.2.13...1.2.14)
+
+* Fixed bug in AppKey Set method
+
 ## [1.2.13](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/tree/1.2.13) (2018-04-10)
 [Full Changelog](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/compare/1.2.12...1.2.13)
 
