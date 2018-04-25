@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.2.15](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/tree/1.2.15) (2018-04-25)
+[Full Changelog](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/compare/1.2.14...1.2.15)
+
+* OneDrive: Attach missing state parameter to authentication url
+* Facebook: Removed user_about_me scope which shows description.
+* Google Cloud: Added object name encoding to google cloud.
+
 ## [1.2.14](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/tree/1.2.14) (2018-04-11)
 [Full Changelog](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/compare/1.2.13...1.2.14)
 
