@@ -59,32 +59,42 @@ namespace UnifiedCloudStorage
 
             cloudStorageLogic = new CloudStorageLogic();
 
+            //Setup:
+            //https://cloudrail.com/integrations/interfaces/CloudStorage;serviceIds=Box,Dropbox,Egnyte,GoogleDrive,OneDrive,OneDriveBusiness,PCloud;platformId=XamarinIOS;tab=setup
+
 			if (selectedService == "Box")
 			{
-				cloudStorage = new CRBox("qnskodzvd2naq16xowc40t43fug2848n", "cQE7Sf9DzZqChjvCTxIMTp3ye6hynhTd");
+                cloudStorage = new CRBox("Box Client Identifier", "Box Client Secret");
 			}
 			else if (selectedService == "Dropbox")
 			{
-				cloudStorage  = new CRDropbox("38nu3lwdvyaqs78", "c95g0wfkdv6ua2d");
+                CRDropbox dropbox = new CRDropbox("Dropbox Client Identifier", "Dropbox Client Secret", "https://auth.cloudrail.com/com.cloudrail.unifiedcloudstorage", "State");
+                dropbox.UseAdvancedAuthentication();
+                cloudStorage = dropbox;
 			}
 			else if (selectedService == "Google Drive")
 			{
-                CRGoogleDrive drive = new CRGoogleDrive("1007170750392-r3p483hu2q02nsp45679dbqsbt9po8h0.apps.googleusercontent.com", "","com.cloudrail.unifiedcloudstorage:/oauth2redirect", "State");
+                //NOTE: Only Need Client Identifier
+                CRGoogleDrive drive = new CRGoogleDrive("Google Drive Client Identifier", "","com.cloudrail.unifiedcloudstorage:/oauth2redirect", "State");
                 drive.UseAdvancedAuthentication();
                 cloudStorage = drive;
 			}
 			else if (selectedService == "One Drive")
 			{
-				cloudStorage = new CROneDrive("000000004018F12F", "lGQPubehDO6eklir1GQmIuCPFfzwihMo");
+                cloudStorage = new CROneDrive("OneDrive Client Identifier", "OneDrive Client Secret");
 			}
 			else if (selectedService == "One Drive for Business")
 			{
-				cloudStorage = new CROneDriveBusiness("", "");
+                cloudStorage = new CROneDriveBusiness("OneDrive Business Client Identifier", "OneDrive Business Client Secret");
 			}
 			else if (selectedService == "Egnynte")
 			{
-				cloudStorage = new CREgnyte("cloudrailcloudtest", "k9y879bha2kmsyyqx4urtnaz", "TsgByd2YZqsJPyYMDhEB6ctAYQ6kP35qYTnEG9urPKq2eNNXRF", "https://www.cloudrailauth.com/auth", "State");
+                cloudStorage = new CREgnyte("Your Egnyte Domain", "Your Egnyte API Key", "Your Egnyte Shared Secret", "https://www.cloudrailauth.com/auth", "State");
 			}
+            else if (selectedService == "PCloud")
+            {
+                cloudStorage = new CRPCloud("PCloud Client Identifier", "PCloud Client Secret");
+            }
 
             //First Service Called (delay it by 500 millseconds for Advanced Authentication)
 			PerformSelector(new Selector("GetRootFilesFolders"), null, 1.0f);

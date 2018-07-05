@@ -16,7 +16,7 @@ namespace UnifiedCloudStorage
         {
             base.ViewDidLoad();
             TableView.TableFooterView = new UIView();
-            string[] data = new string[] { "Box", "Dropbox", "Google Drive", "One Drive", "Egnynte" };
+            string[] data = new string[] { "Box", "Dropbox", "Google Drive", "One Drive", "Egnynte", "PCloud" };
             TableView.Source = new ListTableSource(data, this);
         }
 

@@ -1,0 +1,161 @@
+Function=xamarin_timezone_get_data
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/mscorlib.dll
+Function=xamarin_log
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/mscorlib.dll
+Function=xamarin_find_protocol_wrapper_type
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/Xamarin.iOS.dll
+Function=UIApplicationMain
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/Xamarin.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_CRAddress
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRAdvancedRequestResponse
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRAdvancedRequestSpecification
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRAmazonS3
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRAttachment
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRBackblaze
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRBox
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRBucket
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRBusinessFileMetaData
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRChannelMetaData
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRCharge
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRCloudMetaData
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRCloudRail
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRCreditCard
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRDateOfBirth
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRDropbox
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CREgnyte
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRError
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRExceptionHandler
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRFacebook
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRFacebookMessenger
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRFacebookPage
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRFoursquare
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRGitHub
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRGMail
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRGoogleCloudPlatform
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRGoogleDrive
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRGooglePlaces
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRGooglePlus
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRHeroku
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRImageMetaData
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRInstagram
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRLine
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRLinkedIn
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRLocation
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRMailJet
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRMessage
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRMessageButton
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRMessageItem
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRMessagingAttachment
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRMicrosoft
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRMicrosoftAzure
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRMicrosoftLive
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRNexmo
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CROneDrive
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CROneDriveBusiness
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRPayPal
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRPCloud
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRPOI
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRProductHunt
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRRackspace
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRRefund
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRSandboxObject
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRSendGrid
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRSlack
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRSlackBot
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRSpaceAllocation
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRStripe
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRSubscription
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRSubscriptionPlan
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRTelegram
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRTwilio
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRTwitch
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRTwitter
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRTwizo
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRViber
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRVideoMetaData
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRVimeo
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRYahoo
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRYelp
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CRYouTube
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+ObjectiveCClass=OBJC_CLASS_$_CustomStream
+	/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache/Link/cloudrail-si-xamarin-ios-sdk.dll
+Function=mono_pmip
+Function=xamarin_dyn_objc_msgSend
+Function=xamarin_dyn_objc_msgSendSuper
+Function=xamarin_dyn_objc_msgSend_stret
+Function=xamarin_dyn_objc_msgSendSuper_stret

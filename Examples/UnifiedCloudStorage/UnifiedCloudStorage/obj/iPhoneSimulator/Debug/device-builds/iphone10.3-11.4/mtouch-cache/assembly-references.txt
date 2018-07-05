@@ -1,0 +1,8 @@
+/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/bin/iPhoneSimulator/Debug/UnifiedCloudStorage.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.12.0.4/lib/mono/Xamarin.iOS/mscorlib.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.12.0.4/lib/mono/Xamarin.iOS/../../64bits/Xamarin.iOS.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.12.0.4/lib/mono/Xamarin.iOS/System.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.12.0.4/lib/mono/Xamarin.iOS/Mono.Security.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.12.0.4/lib/mono/Xamarin.iOS/System.Xml.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.12.0.4/lib/mono/Xamarin.iOS/System.Core.dll
+/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/packages/Xamarin.CloudRail.iOS.1.2.18/lib/Xamarin.iOS10/cloudrail-si-xamarin-ios-sdk.dll

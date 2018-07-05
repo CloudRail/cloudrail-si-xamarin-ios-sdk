@@ -1,0 +1,25 @@
+# Version: 11.12.0.4 (d15-7: 64fece5f)
+# [first argument, ignore] # --cache=/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-cache
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.12.0.4/lib/mtouch/mtouch.exe \
+	--sim=/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/bin/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/UnifiedCloudStorage.app \
+	--executable=UnifiedCloudStorage \
+	--debug \
+	--linksdkonly \
+	--sdkroot=/Applications/Xcode.app/Contents/Developer \
+	--sdk=11.4 \
+	--targetver=9.3 \
+	--aot-options=-O=-float32 \
+	--http-message-handler=HttpClientHandler \
+	--abi=x86_64 \
+	--symbollist=/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/mtouch-symbols.list \
+	--dsym=no \
+	--registrar:dynamic \
+	-r=/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/packages/Xamarin.CloudRail.iOS.1.2.18/lib/Xamarin.iOS10/cloudrail-si-xamarin-ios-sdk.dll \
+	-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
+	-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
+	-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
+	-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
+	-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
+	-r=/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/packages/Xamarin.CloudRail.iOS.1.2.18/lib/Xamarin.iOS10/cloudrail-si-xamarin-ios-sdk.dll \
+	'--target-framework=Xamarin.iOS,v1.0' \
+	--root-assembly=/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/bin/iPhoneSimulator/Debug/UnifiedCloudStorage.exe \

@@ -85,7 +85,7 @@
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
     <Reference Include="cloudrail-si-xamarin-ios-sdk">
-      <HintPath>..\..\..\cloudrail-si-xamarin-ios-sdk.dll</HintPath>
+      <HintPath>..\packages\Xamarin.CloudRail.iOS.1.2.18\lib\Xamarin.iOS10\cloudrail-si-xamarin-ios-sdk.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -123,6 +123,8 @@
     <ImageAsset Include="Assets.xcassets\Video.imageset\video-player-2.png" />
     <ImageAsset Include="Assets.xcassets\Logo.imageset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\Logo.imageset\CloudRAIL_logo_neu.png" />
+    <ImageAsset Include="Assets.xcassets\PCloud.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\PCloud.imageset\PCloud.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
@@ -139,6 +141,7 @@
     <Folder Include="Assets.xcassets\DocFile.imageset\" />
     <Folder Include="Assets.xcassets\Video.imageset\" />
     <Folder Include="Assets.xcassets\Logo.imageset\" />
+    <Folder Include="Assets.xcassets\PCloud.imageset\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -147,6 +150,7 @@
   <ItemGroup>
     <None Include="Info.plist" />
     <None Include="Entitlements.plist" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />

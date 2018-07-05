@@ -1,0 +1,14 @@
+/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/bin/iPhoneSimulator/Debug/UnifiedCloudStorage.exe
+/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/bin/iPhoneSimulator/Debug/UnifiedCloudStorage.pdb
+/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/bin/iPhoneSimulator/Debug/cloudrail-si-xamarin-ios-sdk.dll
+/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/ibtool/_BundleResourceWithLogicalName.items
+/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/actool/_PartialAppManifest.items
+/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/actool/_BundleResourceWithLogicalName.items
+/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/coremlc/_PartialAppManifest.items
+/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/coremlc/_BundleResourceWithLogicalName.items
+/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/optimized/client_1007170750392-r3p483hu2q02nsp45679dbqsbt9po8h0.apps.googleusercontent.com.plist
+/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/optimized/
+/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/UnifiedCloudStorage.csprojResolveAssemblyReference.cache
+/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/UnifiedCloudStorage.csproj.CoreCompileInputs.cache
+/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/UnifiedCloudStorage.exe
+/Volumes/Untitled/Projects/cloudrail-si-xamarin-ios-sdk/Examples/UnifiedCloudStorage/UnifiedCloudStorage/obj/iPhoneSimulator/Debug/UnifiedCloudStorage.pdb
