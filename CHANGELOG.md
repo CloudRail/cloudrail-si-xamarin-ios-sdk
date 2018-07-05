@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.2.18](https://github.com/CloudRail/cloudrail-si-xamarin-android-sdk/tree/1.2.18) (2018-07-05)
+[Full Changelog](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/compare/1.2.17...1.2.18)
+
+* Added AuthenticatingDelegate
+* Added UploadDidCancel method to UploadDelegate
+* Minor Bug fixes
+
 ## [1.2.17](https://github.com/CloudRail/cloudrail-si-xamarin-android-sdk/tree/1.2.17) (2018-05-25)
 [Full Changelog](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/compare/1.2.16...1.2.17)
 
