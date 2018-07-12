@@ -1,25 +1,13 @@
 ﻿<Properties StartupConfiguration="{E30CE4C1-6B5D-4533-A4A2-70817FF6D847}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="UnifiedCloudStorage/ListViewController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="UnifiedCloudStorage/CloudStorageViewController.cs">
     <Files>
-      <File FileName="UnifiedCloudStorage/AppDelegate.cs" Line="29" Column="9" />
+      <File FileName="UnifiedCloudStorage/AppDelegate.cs" Line="29" Column="1" />
       <File FileName="UnifiedCloudStorage/SubfolderViewController.cs" Line="64" Column="70" />
       <File FileName="UnifiedCloudStorage/CloudStorageLogic.cs" Line="240" Column="1" />
-      <File FileName="UnifiedCloudStorage/ListViewController.cs" Line="19" Column="103" />
-      <File FileName="UnifiedCloudStorage/CloudStorageViewController.cs" Line="91" Column="48" />
+      <File FileName="UnifiedCloudStorage/ListViewController.cs" Line="19" Column="113" />
+      <File FileName="UnifiedCloudStorage/CloudStorageViewController.cs" Line="69" Column="42" />
       <File FileName="UnifiedCloudStorage/CloudStorageSource.cs" Line="1" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="UnifiedCloudStorage" expanded="True">
-            <Node name="UnifiedCloudStorage" expanded="True">
-              <Node name="References" expanded="True" />
-              <Node name="ListViewController.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.UnifiedCloudStorage PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D307C1FD-89A2-4E6B-85D5-4793E5953A7B" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />

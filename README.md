@@ -548,6 +548,23 @@ new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 ```
 ---
 
+## Advance Request
+
+```csharp
+//GET METHOD
+
+CRAdvancedRequestSpecification req = new CRAdvancedRequestSpecification("/people/~:(positions,public-profile-url)?format=json");
+req.Method = @"GET";
+req.Headers = new Foundation.NSMutableDictionary();;
+req.SetBodyAsString("");
+CRAdvancedRequestResponse res = service.AdvancedRequestWithSpecification(req);
+Console.WriteLine(res.BodyAsString);
+
+
+```
+
+---
+
 More interfaces are coming soon.
 
 ## Advantages of Using CloudRail
