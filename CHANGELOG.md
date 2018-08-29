@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.2.20](https://github.com/CloudRail/cloudrail-si-xamarin-android-sdk/tree/1.2.20) (2018-08-29)
+[Full Changelog](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/compare/1.2.19...1.2.20)
+
+* Fixed OneDrive For business auth process
+* Fixed Google Drive (fileExists)
+* Fixed Backblaze Advance Request
+
 ## [1.2.19](https://github.com/CloudRail/cloudrail-si-xamarin-android-sdk/tree/1.2.19) (2018-07-12)
 [Full Changelog](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/compare/1.2.18...1.2.19)
 
