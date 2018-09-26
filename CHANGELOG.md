@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.2.20](https://github.com/CloudRail/cloudrail-si-xamarin-android-sdk/tree/1.2.20) (2018-09-21)
+[Full Changelog](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/compare/1.2.20...1.3.0)
+
+* Update for iOS 12
+
 ## [1.2.20](https://github.com/CloudRail/cloudrail-si-xamarin-android-sdk/tree/1.2.20) (2018-08-29)
 [Full Changelog](https://github.com/CloudRail/cloudrail-si-xamarin-ios-sdk/compare/1.2.19...1.2.20)
 
